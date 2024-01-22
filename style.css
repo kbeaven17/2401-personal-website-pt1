@@ -16,7 +16,7 @@ div {
 header{
     display:flex;
     justify-content:space-between;
-    position:absolute;
+    position:fixed;
     left:0;
     right:0;
     
@@ -64,6 +64,7 @@ img{
     text-align: center;
     padding: 0px 25px 50px;
     color: azure;
+    margin:auto;
     
 
  }
@@ -91,7 +92,7 @@ img{
  footer {
     display:flex;
     justify-content:space-between;
-    position:absolute;
+    position:fixed;
     left:0;
     right:0;
     
