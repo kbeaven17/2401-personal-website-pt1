@@ -8,17 +8,14 @@ body{
 }
 
 
-div {
-    display:block;
-
-}
 
 header{
     display:flex;
     justify-content:space-between;
-    position:fixed;
+    /* position:fixed; */
     left:0;
     right:0;
+    
     
     border: 5px solid;
     height: 75px;
@@ -50,6 +47,8 @@ img{
     text-align: center;
     padding: 0px 25px 50px;
     color: azure;
+    margin-bottom: 5rem;
+
 
  }
 
@@ -62,9 +61,12 @@ img{
     flex-direction:column;
     align-items: center;
     text-align: center;
-    padding: 0px 25px 50px;
+    /* padding: 0px 25px 50px; */
     color: azure;
-    margin:auto;
+    margin-top: 30px;
+    padding: 20px;
+
+
     
 
  }
@@ -92,9 +94,10 @@ img{
  footer {
     display:flex;
     justify-content:space-between;
-    position:fixed;
+    position: fixed;
     left:0;
     right:0;
+    bottom:0;
     
     border: 5px solid;
     height: 75px;
@@ -103,11 +106,10 @@ img{
 
  }
 
- #content-wrap {
-    padding-bottom: 75px;    /* Footer height */
-  }
+ .about-header {
+    margin-bottom: 5rem;
+ }
 
-  #page-container {
-    position: relative;
-    min-height: 100vh;
-  }
+ 
+
+
