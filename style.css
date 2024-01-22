@@ -89,12 +89,14 @@ img{
  }
 
  footer {
-    position:fixed;
+    display:flex;
+    justify-content:space-between;
+    position:absolute;
     left:0;
     right:0;
     
     border: 5px solid;
-    height: 20px;
+    height: 50px;
     align-items: center;
     background-color: grey;
 
