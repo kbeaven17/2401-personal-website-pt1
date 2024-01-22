@@ -16,7 +16,7 @@ div {
 header{
     display:flex;
     justify-content:space-between;
-    position:fixed;
+    position:absolute;
     left:0;
     right:0;
     
@@ -54,7 +54,7 @@ img{
  }
 
  html {
-    background-color: blue;
+    background-color: lightblue;
  }
 
  #about {
@@ -96,8 +96,17 @@ img{
     right:0;
     
     border: 5px solid;
-    height: 50px;
+    height: 75px;
     align-items: center;
     background-color: grey;
 
  }
+
+ #content-wrap {
+    padding-bottom: 75px;    /* Footer height */
+  }
+
+  #page-container {
+    position: relative;
+    min-height: 100vh;
+  }
